@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <title>Document</title>
+
 </head>
 <body>
     <button>Click Me</button>
-    <div></div>
+    <div hidden>This is a team Work</div>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+    $('button').click(function(){
+        $('div').attr('hidden',false);
+    });
+</script>
+
 </body>
 </html>
